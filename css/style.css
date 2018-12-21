@@ -1,0 +1,146 @@
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #AEA79F;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #333;
+  line-height: 1.5em;
+  overflow: auto;
+}
+
+h1, h3, h4 {
+  text-align: center;
+  line-height: normal;
+
+}
+
+#logo {
+  margin: 0 auto;
+  display: block;
+  padding: 0;
+  max-width: 100%;
+  height: 200px;
+  width: auto;
+}
+
+header {
+background: #002b36;
+padding: 5px;
+}
+
+table, td, th {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+img {
+  display: block;
+    margin: 0 auto;
+    padding: 4% ;
+}
+
+#wrapper {
+
+  margin: auto;
+  height: auto;
+  border-radius:7px;
+  max-width: 100%;
+  width: 98%;
+  background: #fdf9f3;
+  border: 2px solid #2C001E;
+  box-shadow: 0 0 10px 0px rgba(12, 3, 25, 0.8);
+
+}
+
+/* NAV */
+
+.topnav {
+    overflow: hidden;
+    background-color: #ddd
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav .search-container {
+    float: right;
+}
+
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border:none;
+    cursor: pointer;
+}
+
+.tcontent {
+  padding: 20px;
+  margin: auto;
+  margin-top: 30px;
+  height: auto;
+  width: 75%;
+}
+
+.content {
+  padding: 20px;
+  margin: auto;
+  height: auto;
+  width: 60%;
+}
+
+.button {
+    background-color: #657b83;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:active{
+  background-color: #268bd2;
+}
+
+.dbutton {
+  margin: auto;
+  padding: 1%;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}

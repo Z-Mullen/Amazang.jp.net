@@ -1,0 +1,7 @@
+table users(
+user_id int(11) not null auto_increment,
+username varchar(20) not null,
+user_password char(40) not null,
+primary key (user_id),
+unique key username(username));
+
